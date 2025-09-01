@@ -1,0 +1,95 @@
+ /* body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+      margin: 20px;
+      } */
+.container {
+     display: flex;
+     margin: auto;
+     width: 80%;
+     justify-content: center;
+}
+
+.card {
+     background-color: grey;
+     padding: 80px;
+     padding-left: 30px; 
+     padding-bottom: 30px;
+
+     width: max-content;
+ 
+}
+.card:first-child{
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+}
+.card:last-child{
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+
+.card h2{
+     padding-top: 50px;
+     font-size: 40px;
+     font-style: normal;
+     /* font-family:Arial, Helvetica, sans-serif; */
+     color: white;
+}
+
+.card p {
+      font-size: 14px;
+      margin-bottom: 20px;
+      line-height: 2;
+      font-size: medium;
+      width: 200px;
+      padding-bottom: 40px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+
+    .btn {
+      background-color: white;
+      width: 10px;
+      border-radius: 20px;
+      padding: 10px 20px;
+      text-decoration: none;
+      text-align: center;
+      /* margin: auto; */
+    }
+    .btn:hover {
+     background-color: black;
+    }
+
+    .sedan .btn{
+     color: #D9730D;
+    }
+
+    .suv .btn{
+     color: #024e55;
+    }
+
+    .luxury .btn{
+     color: #033d20;
+    }
+
+    .sedan p{
+     color: #f7c998;
+    }
+
+    .suv p{
+     color: #9ce1e7;
+    }
+
+    .luxury p{
+     color: #8becbc;
+    }
+    .sedan { background: #D9730D; }    
+    .suv { background: #024e55; }  
+    .luxury { background: #033d20; }
+
+   
+    
+    
